@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1596103103126" clover="3.2.0">
-  <project timestamp="1596103103127" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="11" coveredelements="11" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+<coverage generated="1596104737160" clover="3.2.0">
+  <project timestamp="1596104737160" name="All files">
+    <metrics statements="36" coveredstatements="6" conditionals="18" coveredconditionals="4" methods="6" coveredmethods="1" elements="60" coveredelements="11" complexity="0" loc="36" ncloc="36" packages="1" files="5" classes="5"/>
+    <file name="httperror.js" path="C:\Users\rajof\Documents\code\testtest\httperror.js">
+      <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+    </file>
+    <file name="httpnotauthorized.js" path="C:\Users\rajof\Documents\code\testtest\httpnotauthorized.js">
+      <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+    </file>
+    <file name="httpnotfound.js" path="C:\Users\rajof\Documents\code\testtest\httpnotfound.js">
+      <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+    </file>
+    <file name="main.js" path="C:\Users\rajof\Documents\code\testtest\main.js">
+      <metrics statements="16" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+    </file>
     <file name="sum.js" path="C:\Users\rajof\Documents\code\testtest\sum.js">
       <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
