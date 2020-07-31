@@ -8,4 +8,5 @@ test("testing NotAutorized new NotAutorized(message= Not autorized)", () => {
         // assert
         expect(classInstance.message).toBe(message);
         expect(classInstance.code).toBe(401);
+        expect(classInstance.name).toBe("NotAutorized")
 })
