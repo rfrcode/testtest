@@ -1,11 +1,23 @@
 const getError = require('./main')
 
+beforeEach(function(){
+    spyOn(console, 'warn');
+    spyOn(console, 'error');
+    spyOn(console, 'log');
+  })
 
-test("testing sum a is not number", function () {
-    // arrange 
-    const a = 1
+  // TODO afterEach quitar spys
+
+
+test("testing getError ", function () {
     // act
-    //const result = sum(a, b)
+    getError(1)
+    getError(2)
+    getError(3)
+    getError(4)
     // assert
-    expect(() => getError(a, b)).toThrow(Error)
+    expect(console.warn).toHaveBeenNthCalledWith(1, "Not found")
+    expect(console.warn).toHaveBeenNthCalledWith(2, "Not autorized")
+    expect(console.error).toHaveBeenNthCalledWith(1, "critical error")
+    expect(console.log).toHaveBeenCalledTimes(4)
 })
